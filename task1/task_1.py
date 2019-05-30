@@ -22,20 +22,30 @@ def read_file(filename):
     
     "读取数据集"
     
-    contents,labels = [],[]
-    file_path = {'train':TRAIN_PATH,'val':VAL_PATH,'test':TEST_PATH}
+    '文件写入方法'
+#    contents,labels = [],[]
+#    file_path = {'train':TRAIN_PATH,'val':VAL_PATH,'test':TEST_PATH}
+#    
+#    with open(file_path[filename],'r',encoding='utf-8') as f:
+#        for line in f:
+#            try:
+#                #strip()函数,去除字符串首尾的空格;split()函数,空格切分
+#                labels.append(line.strip().split('\t')[0])
+#                contents.append(line.split('\t')[1])
+#            except:
+#                pass
+#        data = pd.DataFrame()
+#        data['text'] = contents
+#        data['label'] = labels
     
-    with open(file_path[filename],'r',encoding='utf-8') as f:
-        for line in f:
-            try:
-                #strip()函数,去除字符串首尾的空格;split()函数,空格切分
-                labels.append(line.strip().split('\t')[0])
-                contents.append(line.split('\t')[1])
-            except:
-                pass
-        data = pd.DataFrame()
-        data['text'] = contents
-        data['label'] = labels
+    
+    'dataframe读入方法'
+    file_path = {'train':TRAIN_PATH,'val':VAL_PATH,'test':TEST_PATH}
+    data = pd.read_csv(file_path['train'],sep='\t',header=None,names=['label','text'])
+    #交换columns    
+    cols = ['text','label'];data = data.loc[:,cols]
+    #去除前后空格字符
+    data.text = data.text.map(lambda x:x.strip())
     
     return data
 
@@ -131,22 +141,6 @@ if __name__ == '__main__':
     words_id = read_vocab(words)
     category_id = read_category(train)
     x_pad, y_pad = process_file(train, words_id, category_id)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
