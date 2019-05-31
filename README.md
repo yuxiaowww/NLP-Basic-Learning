@@ -1,6 +1,14 @@
 # NLP-Basic Learning
-## [任务1:Task1 数据集探索](https://github.com/yuxiaowww/NLP-Basic-Learning/tree/master/task1)
+### [任务1: 数据集探索](https://github.com/yuxiaowww/NLP-Basic-Learning/tree/master/task1)
 原文参考：[参考链接](https://github.com/gaussic/text-classification-cnn-rnn/blob/master/data/cnews_loader.py)。
 任务1中当前目录cnews文件夹中存放数据集：
 [数据下载链接](https://pan.baidu.com/s/1hugrfRu) 
 提取码: qfud
+##
+
+### [任务2: 分词-去停用词-词频-文本向量化](https://github.com/yuxiaowww/NLP-Basic-Learning/tree/master/task2)
+原文参考：[参考链接](https://github.com/fxsjy/jieba)。
+任务2中当前目录cnews文件夹中存放数据集：
+数据下载链接同任务1,停用词已上传
+
+
