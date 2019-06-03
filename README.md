@@ -14,3 +14,7 @@
 
 ### [任务3: TFIDF-Word2Vec-互信息](https://github.com/yuxiaowww/NLP-Basic-Learning/tree/master/task3)
 原文参考：[参考链接](https://www.jianshu.com/p/e2a0aea3630c)。几种方法的简单示例。
+##
+
+### [其他任务: keras简单示例 ](https://github.com/yuxiaowww/NLP-Basic-Learning/tree/master/task_other)
+原文参考：[参考链接1](https://blog.csdn.net/Kaiyuan_sjtu/article/details/83572927)；[参考链接2](https://blog.csdn.net/u013710265/article/details/72780520)。keras文本处理示例；keras文本分类示例
