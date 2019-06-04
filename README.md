@@ -24,5 +24,9 @@
 原文参考：[参考链接1](https://mp.weixin.qq.com/s?__biz=MzAxMTU5Njg4NQ==&mid=100000867&idx=5&sn=25e11ef5f6e014647af1061631047521)；[参考链接2](https://mp.weixin.qq.com/s?__biz=MzAxMTU5Njg4NQ==&mid=100000867&idx=3&sn=e51617747de265f9f242e602d9fed696)。正则化介绍，TensorFlow简单示例
 ##
 
+### [任务6: onehot-word2vec-fasttext](https://github.com/yuxiaowww/NLP-Basic-Learning/tree/master/task6)
+原文参考：[参考链接1](https://github.com/salestock/fastText.py)；[参考链接2](https://github.com/wsydl/NLP-Learn/blob/master/task6/task6_fasttext.py)。onehot二种方法示例，word2vec示例，fasttext分类简单示例
+##
+
 ### [其他任务: keras简单示例 ](https://github.com/yuxiaowww/NLP-Basic-Learning/tree/master/task_other)
 原文参考：[参考链接1](https://blog.csdn.net/Kaiyuan_sjtu/article/details/83572927)；[参考链接2](https://blog.csdn.net/u013710265/article/details/72780520)。keras文本处理示例；keras文本分类示例
